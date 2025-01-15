@@ -1,0 +1,19 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment folder
+venv/
+
+# Ignore Robot Framework output and report files
+log.html
+output.xml
+report.html
+
+# Ignore Playwright log file
+playwright-log.txt
+
+# Ignore other system-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
