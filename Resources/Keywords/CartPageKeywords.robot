@@ -6,7 +6,7 @@ Variables      ../Locators/Locators.py
 
 Product Is Verified In The Cart
     Click          ${CART_ICON}
-    Get Attribute  ${PRODUCT_IN_CART}    href     *=    6731111
+    Get Attribute  ${PRODUCT_IN_CART}    href     *=    ${product_id}
 
 Product Is Removed From The Cart
     Click          ${PRODUCT_SUBTRACT}
