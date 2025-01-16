@@ -12,4 +12,4 @@ Add And Remove Product From Cart
     And Product Is Added To The Cart
     Then Product Is Verified In The Cart
     When Product Is Removed From The Cart
-    Then Homepage Is Returned
+    And Homepage Is Returned
